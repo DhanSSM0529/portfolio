@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhanya Sai Shree M — Portfolio</title>
+  <meta name="description" content="Portfolio of Dhanya Sai Shree M — Frontend-focused Computer Science student with UI/UX skills, based in Coimbatore, India." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">DSS</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mob-link">About</a></li>
+      <li><a href="#skills" class="mob-link">Skills</a></li>
+      <li><a href="#projects" class="mob-link">Projects</a></li>
+      <li><a href="#experience" class="mob-link">Experience</a></li>
+      <li><a href="#contact" class="mob-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <header id="hero">
+    <div class="hero-content">
+      <p class="hero-tag">Frontend Developer · UI/UX Designer</p>
+      <h1 class="hero-name">Dhanya Sai Shree M</h1>
+      <p class="hero-sub">
+        Frontend-focused CS student passionate about building clean, user-friendly interfaces. Based in Coimbatore, India.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary" id="viewWorkBtn">View Work</a>
+        <a href="#contact" class="btn-outline" id="contactBtn">Get in Touch</a>
+      </div>
+      <div class="hero-links">
+        <a href="https://github.com" target="_blank" rel="noopener" id="githubHeroLink" aria-label="GitHub">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener" id="linkedinHeroLink" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+    <div class="hero-decoration" aria-hidden="true">
+      <div class="deco-circle c1"></div>
+      <div class="deco-circle c2"></div>
+      <div class="deco-circle c3"></div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I'm a B.E. Computer Science Engineering student at KPR Institute of Engineering and Technology, Coimbatore. I enjoy building responsive, accessible web pages and have a strong interest in UI/UX design.
+            </p>
+            <p>
+              My work sits at the intersection of design and development — I'm comfortable working in Figma and Illustrator, and equally comfortable turning those designs into clean HTML/CSS interfaces.
+            </p>
+          </div>
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-num">8.38</span>
+              <span class="stat-label">Current CGPA</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">3</span>
+              <span class="stat-label">Leadership Roles</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+
+          <div class="skill-group">
+            <div class="skill-group-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3>Frontend & UI/UX</h3>
+            <ul class="skill-tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Figma</li>
+              <li>Adobe Photoshop</li>
+              <li>Adobe Illustrator</li>
+              <li>Canva</li>
+              <li>UI/UX Prototyping</li>
+              <li>Wireframing</li>
+              <li>Responsive Design</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-group-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3>Backend & Integration</h3>
+            <ul class="skill-tags">
+              <li>Python</li>
+              <li>Flask (Basic)</li>
+              <li>SQL (Basic)</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-group-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <h3>DevOps & Tools</h3>
+            <ul class="skill-tags">
+              <li>GitHub</li>
+              <li>VS Code</li>
+              <li>Postman</li>
+              <li>Render</li>
+              <li>Google Colab</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+
+          <article class="project-card" id="project-mimica">
+            <div class="project-badge">Ongoing</div>
+            <h3>MIMICA</h3>
+            <p class="project-sub">Sign Language Learning App</p>
+            <p class="project-desc">
+              Built an interactive computer vision app using webcam input to provide real-time sign accuracy feedback. Designed a simple, responsive interface to display live results clearly.
+            </p>
+            <div class="project-stack">
+              <span>Computer Vision</span>
+              <span>Responsive UI</span>
+              <span>Webcam API</span>
+            </div>
+          </article>
+
+          <article class="project-card" id="project-vitals">
+            <h3>Anomaly Detection in Vital Signs</h3>
+            <p class="project-sub">Healthcare Data Visualization</p>
+            <p class="project-desc">
+              Designed an interactive alert-based visual indicator for anomaly detection to monitor patient vitals. Focused on layout clarity and user-friendly visualization of health data.
+            </p>
+            <div class="project-stack">
+              <span>Data Visualization</span>
+              <span>Alert UX</span>
+              <span>Health Analytics</span>
+            </div>
+          </article>
+
+          <article class="project-card" id="project-tumor">
+            <h3>Tumor Malignancy Prediction</h3>
+            <p class="project-sub">ML Result Communication</p>
+            <p class="project-desc">
+              Created visual dashboards to communicate ML prediction results clearly. Enhanced interpretability through structured data visualization.
+            </p>
+            <div class="project-stack">
+              <span>Dashboard Design</span>
+              <span>ML Integration</span>
+              <span>Python</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+
+          <div class="timeline-item" id="exp-smarted">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3>Data Science with Python</h3>
+                  <p class="timeline-org">SmartEd</p>
+                </div>
+                <span class="timeline-date">Dec 2024 – Mar 2025</span>
+              </div>
+              <ul class="timeline-list">
+                <li>Designed clear visual reports and data representations to support business decisions.</li>
+                <li>Transformed raw datasets into understandable visual insights.</li>
+                <li>Collaborated on model output presentation for better stakeholder interpretation.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item" id="exp-ieee">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3>Designer</h3>
+                  <p class="timeline-org">IEEE Professional Communication Society</p>
+                </div>
+                <span class="timeline-date">Leadership</span>
+              </div>
+              <ul class="timeline-list">
+                <li>Led design initiatives to enhance event visibility and branding, fostering engagement through creative visual communication.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item" id="exp-design-club">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3>Secretary</h3>
+                  <p class="timeline-org">Design Club</p>
+                </div>
+                <span class="timeline-date">Leadership</span>
+              </div>
+              <ul class="timeline-list">
+                <li>Coordinating and leading creative campaigns, fostering collaboration and innovation.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item" id="exp-gen-niral">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3>Vice Secretary</h3>
+                  <p class="timeline-org">Gen Niral</p>
+                </div>
+                <span class="timeline-date">Leadership</span>
+              </div>
+              <ul class="timeline-list">
+                <li>Assisted in planning and executing student-centric initiatives promoting leadership, collaboration, and community engagement.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="edu-grid">
+
+          <div class="edu-card" id="edu-kpr">
+            <div class="edu-year">Sept 2023 – Present</div>
+            <h3>B.E. Computer Science Engineering</h3>
+            <p class="edu-org">KPR Institute of Engineering and Technology</p>
+            <p class="edu-loc">Coimbatore, India</p>
+            <span class="edu-grade">CGPA: 8.38</span>
+          </div>
+
+          <div class="edu-card" id="edu-school">
+            <div class="edu-year">School</div>
+            <h3>Higher & Senior Secondary</h3>
+            <p class="edu-org">Chandrakanthi Public School</p>
+            <p class="edu-loc">Coimbatore, India</p>
+            <span class="edu-grade">Higher: 86.3% · Senior: 93%</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ACTIVITIES -->
+    <section id="activities" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Activities</h2>
+        <div class="activities-grid">
+
+          <div class="activity-item" id="act-speaking">
+            <div class="activity-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            </div>
+            <div>
+              <h3>Public Speaking</h3>
+              <p>Master of Ceremony · MUN · Debate · Panel Discussions</p>
+            </div>
+          </div>
+
+          <div class="activity-item" id="act-hackathon">
+            <div class="activity-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            </div>
+            <div>
+              <h3>Hackathons</h3>
+              <p>Intel GenAI Hackathon · Bharathiya Anthariksh Hackathon</p>
+            </div>
+          </div>
+
+          <div class="activity-item" id="act-branding">
+            <div class="activity-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg>
+            </div>
+            <div>
+              <h3>Branding</h3>
+              <p>KPRIET Fiestaa 25 — Design & Branding Team · KPR Jury Awards Coverage</p>
+            </div>
+          </div>
+
+          <div class="activity-item" id="act-volunteer">
+            <div class="activity-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </div>
+            <div>
+              <h3>Volunteering</h3>
+              <p>Drug and Abuse Awareness Program for Government School students</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Get in Touch</h2>
+        <p class="contact-intro">I'm open to internship opportunities, collaborations, or just a conversation about design and frontend development.</p>
+        <div class="contact-links">
+          <a href="mailto:Dhan0529Ree@gmail.com" id="emailLink" class="contact-card">
+            <div class="contact-card-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <span class="contact-card-label">Email</span>
+              <span class="contact-card-value">Dhan0529Ree@gmail.com</span>
+            </div>
+          </a>
+
+          <a href="tel:+919787173696" id="phoneLink" class="contact-card">
+            <div class="contact-card-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.44 2 2 0 0 1 3.59 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.78a16 16 0 0 0 6.29 6.29l1.13-.93a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div>
+              <span class="contact-card-label">Phone</span>
+              <span class="contact-card-value">+91 9787173696</span>
+            </div>
+          </a>
+
+          <a href="https://github.com" target="_blank" rel="noopener" id="githubContactLink" class="contact-card">
+            <div class="contact-card-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </div>
+            <div>
+              <span class="contact-card-label">GitHub</span>
+              <span class="contact-card-value">View my repositories</span>
+            </div>
+          </a>
+
+          <a href="https://linkedin.com" target="_blank" rel="noopener" id="linkedinContactLink" class="contact-card">
+            <div class="contact-card-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </div>
+            <div>
+              <span class="contact-card-label">LinkedIn</span>
+              <span class="contact-card-value">Connect with me</span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container footer-inner">
+      <p>© 2025 Dhanya Sai Shree M · Coimbatore, India</p>
+      <p class="footer-note">Designed & built with care</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
